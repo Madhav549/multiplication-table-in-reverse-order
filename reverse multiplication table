@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int a,b;
+  printf("enter the number :");
+ scanf("%d",&a);
+    printf("*******Reverse Multiplication table of %d*******\n",a);
+  for(b=10;b>=1;b--)
+  {
+      printf("%d X %d =%d\n",a,b,a*b);
+  }
+return 0;
+}
